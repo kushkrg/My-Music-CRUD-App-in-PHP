@@ -175,7 +175,7 @@ if(isset($_POST['submit'])){
                                       <span>
                                       
                                         <a href='#' class='btn btn-danger' title='Delete'>
-                                            <i class='fa fa-trash-o fa-lg' data-toggle='modal' data-target='#delete' aria-hidden='true'></i>
+                                            <i class='fa fa-trash-o fa-lg' data-toggle='modal' data-target='#delete$id' aria-hidden='true'></i>
                                         </a>
                                       </span>
                                       
@@ -244,7 +244,7 @@ while($row = mysqli_fetch_array($run_data))
 {
 	$id = $row['id'];
 	echo "
-<div id='delete' class='modal fade' role='dialog'>
+<div id='delete$id' class='modal fade' role='dialog'>
   <div class='modal-dialog'>
     <!-- Modal content-->
     <div class='modal-content'>
