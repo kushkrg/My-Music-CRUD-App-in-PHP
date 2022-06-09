@@ -1,0 +1,81 @@
+
+header{
+    height: 400px;
+    width: 100%;
+    background-image: url('img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+.gener{
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 270px;
+    text-align: center;
+    color: #fff;
+}
+.category{
+    background-image: url('img/gener.jpg');
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 12px;
+    font-weight: 600;
+    line-height: 100px;
+    cursor: pointer;
+}
+.checked {
+    color: orange;
+  }
+
+.img-card{
+    padding: 5px;
+}
+.img-card img{
+    border-radius: 5px;
+}
+.text-card{
+    padding: 5px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: DodgerBlue; */
+  }
+  
+  .flex-container > .music-card {
+    background-color: #fff;
+    width: 400px;
+    margin: 13px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  /* for artists design start  */
+  .flex-container > .artists-card {
+    background-color: #fff;
+    width: 400px;
+    margin: 13px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  /* artists design end  */
+
+  /* footer section start  */
+  footer{
+      height: 50px;
+      width: 100%;
+      background-color: rgb(243, 236, 236);
+      color: black;
+      text-align: center;
+      padding: 12px;
+      margin: auto;
+  }
+  
