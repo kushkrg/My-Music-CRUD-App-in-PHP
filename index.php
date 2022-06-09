@@ -43,6 +43,9 @@ $artists = mysqli_query($con, "SELECT * FROM artists ORDER BY id DESC LIMIT 9");
       </nav>
       <!-- hero section  -->
       <header>
+        <div class="hero-text" style="display: none">
+              <h1>Play millions of songs and podcasts, for free.</h1>
+          </div>
           <div class="gener">
             <div class="category">Romantic</div>
             <div class="category">Old Classic</div>
