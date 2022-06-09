@@ -4,7 +4,11 @@ header{
     width: 100%;
     background-image: url('img/hero-bg.jpg');
     background-repeat: no-repeat;
-    object-fit: fill;
+    object-fit: cover;
+}
+.hero-text{
+    display:none !important;
+    
 }
 .gener{
     /* background-color: red; */
@@ -15,6 +19,7 @@ header{
     top: 270px;
     text-align: center;
     color: #fff;
+    flex-wrap: wrap;
 }
 .category{
     background-image: url('img/gener.jpg');
@@ -79,3 +84,17 @@ header{
       margin: auto;
   }
   
+ @media only screen and (max-width: 600px) {
+    .gener{
+        display: none;
+      
+    }
+    .hero-text{
+        display: block;
+        color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    }
+ 
+}
